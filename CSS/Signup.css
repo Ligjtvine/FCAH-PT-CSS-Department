@@ -1,0 +1,108 @@
+body{
+    font: 17px/1.7 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(3, 87, 87);
+    background-size: cover;
+    
+}
+
+.Signin{
+    background: rgba(137, 204, 187, 0.2);
+    padding: 40px;
+    width: 250px;
+    margin: auto;
+    margin-top: 90px;
+    height: 444px;
+    border-radius: 19px;
+    box-shadow: 2px 7px 8px;
+}
+
+.Signin img{
+    width: 100px;
+}
+
+form{
+    width: 257px;
+    text-align: center;
+}
+
+input[type=text]{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1.4px solid white;
+    font-family: 'play', sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: white;
+}
+
+input[type=password]{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1.4px solid white;
+    font-family: 'play', sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: white;
+}
+
+input[type=button]{
+    border: none;
+    width: 160px;
+    background: white;
+    color: #000;
+    font-size: 16px;
+    line-height: 40px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+
+input[type=button]:hover{
+    color: white;
+    background: rgb(21, 182, 43);
+    transition: 1.3s;
+}
+
+h2{
+    color: white;
+}
+
+a{
+    color: yellow;
+    text-decoration: blink;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.Container a{
+    font-size: 20px;
+}
+
+::placeholder{
+    color: aliceblue;
+    opacity: 0.8;
+}
